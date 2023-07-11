@@ -87,7 +87,7 @@ header {
 
 .home {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -104,10 +104,6 @@ header {
   color: var(--main-color);
 }
 
-.home-text h2 {
-  font-size: var(--h2-font);
-  margin: 1rem 0;
-}
 
 .btn {
   display: inline-block;
@@ -129,8 +125,9 @@ header {
 }
 
 .about-img img {
-  max-width: 60%;
-  border-radius: 10px;
+  
+  max-width: 90%;
+  border-radius: 20px;
 }
 
 .about-text span {
@@ -194,7 +191,7 @@ header {
 }
 
 .box h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin: 4px 0 20px;
 }
@@ -221,8 +218,8 @@ header {
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
 }
 
 .s-box {
@@ -248,6 +245,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 .contact-text span {
@@ -257,19 +255,20 @@ header {
 
 .contact-text h2 {
   font-size: var(--h2-font);
+  font-size: 1.2rem;
 }
 
 .contact-box h3 {
   color: var(--main-color);
   font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 .social {
   display: flex;
   margin-top: 1.5rem;
 }
 .social i {
-  font-size: 20px;
+  font-size: 2rem;
   margin-right: 1rem;
   color: var(--text-color);
 }
