@@ -1,5 +1,3 @@
-
-  
 menu.onclick = () => {
   navBar.classList.toggle("active");
 };
