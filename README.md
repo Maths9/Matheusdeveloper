@@ -1,3 +1,3 @@
 ### Landing Page
 
-#### Live: https://matheusbarboza.tech
+#### Live: matheusbarboza.tech
