@@ -17,11 +17,11 @@
 }
 
 :root {
-  --main-color: #ffb411;
-  --text-color: #1e1c2a;
-  --bg-color: rgb(243, 242, 242);
+  --main-color: #2cd5c4;
+  --text-color: #ffffff;
+  --bg-color: #11111f;
 
-  --big-font: 4rem;
+  --big-font: 3.6rem;
   --h2-font: 2.2rem;
   --p-font: 0.9rem;
 }
@@ -35,15 +35,6 @@ body {
   color: var(--text-color);
 }
 
-body.active {
-  --text-color: #fff;
-  --bg-color: #222124;
-}
-
-#darkmode {
-  font-size: 25px;
-  cursor: pointer;
-}
 
 header {
   position: fixed;
@@ -95,7 +86,7 @@ header {
 }
 
 .home-img img {
-  width: 75%;
+  width: 100%;
   
 }
 
@@ -111,11 +102,12 @@ header {
   padding: 10px 20px;
   border-radius: 12px;
   color: #fff;
+  margin-top: 1rem;
   
 }
 
 .btn:hover {
-  background-color: #eb9800;
+  background-color: #d5204a;
 }
 
 .about {
@@ -212,7 +204,7 @@ header {
 }
 
 .box .bx:hover {
-  background-color: #eb9800;
+  background-color: #cf2071;
   cursor: pointer;
 }
 
@@ -294,10 +286,6 @@ header {
   margin-left: 1rem;
 }
 
-.copyright {
-  padding: 20px;
-  text-align: center;
-}
 
 @media (max-width: 921px) {
   header {
