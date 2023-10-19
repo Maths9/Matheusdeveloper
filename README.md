@@ -1,3 +1,3 @@
 ### Landing Page
 
-#### Live: https://maths9.github.io/Matheusdeveloper/
+#### Live: http://www.matheusbarboza.tech
